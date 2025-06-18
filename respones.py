@@ -9,7 +9,7 @@ def Res():
     # condition
 
     if audioRecog.text == "helo":
-        pass
+        playsound(".vscode/assets/hel-1v.mp3")
     elif audioRecog.text == "hello":
         playsound(".vscode/assets/hel-1v.mp3")
     elif audioRecog.text == "hai":
